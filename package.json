@@ -1,0 +1,22 @@
+{
+  "name": "simplehttp",
+  "version": "1.0.0",
+  "description": "SimpleHTTP Assignment",
+  "main": "C:\\Users\\camso\\Documents\\School\\Rich Media II\\Simple HTTP\\src\\index.js",
+  "scripts": {
+    "start": "node .\\src\\server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "engines": {
+    "node": "15.8.0",
+    "npm": "7.5.1"
+  },
+  "author": "Cameron Olson",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

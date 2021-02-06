@@ -10,6 +10,7 @@ const onRequest = (request, response) => {
   console.log(request.url);
 
   switch (request.url) {
+    case '/':
     default:
       htmlHandler.getIndex(request, response);
       break;
